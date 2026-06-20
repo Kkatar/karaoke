@@ -1,0 +1,44 @@
+{
+  "name": "karaoke-hub",
+  "version": "1.0.0",
+  "description": "Production-ready Karaoke Web Application with Express, React, TypeScript, Prisma, and Tailwind CSS",
+  "main": "dist/server/server.js",
+  "scripts": {
+    "postinstall": "prisma generate && npm install --prefix client --legacy-peer-deps",
+    "db:migrate": "npx prisma migrate dev",
+    "db:seed": "npx ts-node prisma/seed.ts",
+    "db:studio": "npx prisma studio",
+    "build:client": "npm run build --prefix client",
+    "build:server": "tsc",
+    "build": "npm run build:client && npm run build:server",
+    "server": "nodemon --watch server --ext ts,json --exec ts-node server/server.ts",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node dist/server/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.12.7",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
