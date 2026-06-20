@@ -40,7 +40,7 @@ async function main() {
       title: 'Tujhe Kitna Chahne Lage',
       artist: 'Arijit Singh',
       language: 'Hindi',
-      audioUrl: 'http://localhost:5000/uploads/tujhe_kitna_chahne_lage.mp4',
+      audioUrl: '/uploads/tujhe_kitna_chahne_lage.mp4',
       backgroundUrl: 'https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=800',
       lyrics: `[00:00.00](Instrumental Intro)
 [00:05.00]Dil ka dariya beh hi gaya
@@ -58,7 +58,7 @@ async function main() {
       title: 'Tum Hi Ho',
       artist: 'Arijit Singh',
       language: 'Hindi',
-      audioUrl: 'http://localhost:5000/uploads/tum_hi_ho.ogg',
+      audioUrl: '/uploads/tum_hi_ho.ogg',
       backgroundUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800',
       lyrics: `[00:00.00](Soft Piano Intro)
 [00:06.00]Hum tere bin ab reh nahi sakte
@@ -74,7 +74,7 @@ async function main() {
       title: 'Kabira',
       artist: 'Tochi Raina, Rekha Bhardwaj',
       language: 'Hindi',
-      audioUrl: 'http://localhost:5000/uploads/kabira.mp3',
+      audioUrl: '/uploads/kabira.mp3',
       backgroundUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800',
       lyrics: `[00:00.00](Acoustic Guitar Intro)
 [00:06.00]Kaisi teri khudgarzi
@@ -92,7 +92,7 @@ async function main() {
       title: 'Perfect',
       artist: 'Ed Sheeran',
       language: 'English',
-      audioUrl: 'http://localhost:5000/uploads/perfect.mp3',
+      audioUrl: '/uploads/perfect.mp3',
       backgroundUrl: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=800',
       lyrics: `[00:00.00](Guitar Chords Intro)
 [00:04.00]I found a love for me
@@ -114,7 +114,7 @@ async function main() {
       title: 'Someone Like You',
       artist: 'Adele',
       language: 'English',
-      audioUrl: 'http://localhost:5000/uploads/someone_like_you.mp3',
+      audioUrl: '/uploads/someone_like_you.mp3',
       backgroundUrl: 'https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=800',
       lyrics: `[00:00.00](Melancholy Piano Intro)
 [00:05.00]I heard that you're settled down
@@ -137,7 +137,7 @@ async function main() {
       title: 'Stay',
       artist: 'The Kid LAROI & Justin Bieber',
       language: 'English',
-      audioUrl: 'http://localhost:5000/uploads/stay.mp3',
+      audioUrl: '/uploads/stay.mp3',
       backgroundUrl: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=800',
       lyrics: `[00:00.00](Synth Intro)
 [00:03.00]I do the same thing I told you that I never would

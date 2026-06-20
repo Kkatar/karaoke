@@ -16,8 +16,6 @@ client/dist/
 *.db-journal
 prisma/dev.db
 
-# Media uploads (contain large local audio files)
-uploads/
 
 # OS files
 .DS_Store
